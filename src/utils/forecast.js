@@ -9,7 +9,7 @@ request({url,json:true},(error,{body})=>{
       }else if(body.error){
         callback('Unable to find search content', undefined);
       }else{
-        callback(undefined, body.current.weather_descriptions[0] + ' It is currently'+ body.current.temperature +'°F .There is '+ body.current.precip +'% chance of rain')
+        callback(undefined, body.current.weather_descriptions[0] + '. It is currently'+ body.current.temperature +'°F .There is '+ body.current.precip +'% chance of rain')
       }
 })
 
