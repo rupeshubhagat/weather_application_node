@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    background-color: gold;
+    color: grey;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid black;
+}
+.header{
+    background-color: #3E5C59;
+    color: grey;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid black;
+}
+img{
+    width: 100%;
+}
+ul{
+list-style-type: none;
+}
+ul li{
+padding: 15px 10px 15px 10px;
+display: inline-block;
+background-color: black;
+position: relative;
+}
+ul li:after{
+    content: '';
+    width: 30px;
+    height: 2px;
+    color: white;    content: '';
+    width: 40px;
+    height: 4px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: red;
+    bottom: 0;
+    display: flex;
+    }
+ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+footer h2{
+    background-color: tomato;
+    color: white;
+    font-size: 30px;
+    position: fixed;
+    bottom:0;
+    left: 0;
+    width: 100%;
+}
+
+.title{
+    font-size: 60px;
+    background-color: black;
+    color: white;
+}
+
+.searchInput{
+    width: 60%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    display: block;
+    background-color: #0C0300;
+    color: #fff;
+    padding: 19px;
+    font-size: 23px;
+    border-radius: 37px;
+    border: 2px solid #EC4007;
+}
+
+.searchInput:focus{
+    outline: none;
+}
+
+.searchBtn{
+    width: auto;
+    left: 0;
+    right: 0;
+    display: block;
+    margin: auto;
+    padding: 10px 20px 10px 20px;
+    background-color: tomato;
+    color: white;
+    font-size: 23px;
+    border-radius: 23px;
+}
+
+.searchBtn:focus{
+    outline: none;
+}
+.message{
+    display: flex;
+    justify-content: center;
+    font-size: 23px;
+    flex-wrap: wrap;
+}
+.message div{
+  width: 100%;
+  }
+
+.message div p{
+  display: flex;
+  justify-content: center;
+  }
+
+  /* input[placeholder], [placeholder], *[placeholder] {
+    color: red !important;
+ 
+} */
+
